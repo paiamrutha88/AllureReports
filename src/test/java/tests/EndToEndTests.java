@@ -34,6 +34,12 @@ public class EndToEndTests {
 		Assert.assertEquals(driver.getCurrentUrl(), "https://www.saucedemo.com/inventory.html");
 	}
 	
+	@Test
+	public void testTwo()
+	{
+		Assert.assertTrue(true);
+	}
+	
 	@AfterMethod
 	public void quit()
 	{
