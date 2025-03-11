@@ -31,7 +31,7 @@ public class EndToEndTests {
 		driver.findElement(By.id("user-name")).sendKeys("standard_user");
 		driver.findElement(By.id("password")).sendKeys("secret_sauce");
 		driver.findElement(By.id("login-button")).click();
-		Assert.assertEquals(driver.getCurrentUrl(), "htts://www.saucedemo.com/inventory.html");
+		Assert.assertEquals(driver.getCurrentUrl(), "https://www.saucedemo.com/inventory.html");
 	}
 	
 	@AfterMethod
