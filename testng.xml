@@ -5,7 +5,10 @@
     <classes>
       <class name="tests.EndToEndTests">
       <methods>
-      	<include name="loginTest"/>
+      	<include name="testTwo"/>
+      	<include name="testThree"/>
+      	<include name="testFour"/>
+      	<include name="testFive"/>
       	
       </methods>
       </class>
