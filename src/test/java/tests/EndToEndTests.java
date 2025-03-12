@@ -46,6 +46,12 @@ public class EndToEndTests {
 		Assert.assertTrue(true);
 	}
 	
+	@Test
+	public void testFour()
+	{
+		Assert.assertTrue(true);
+	}
+	
 	@AfterMethod
 	public void quit()
 	{
